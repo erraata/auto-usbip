@@ -31,7 +31,7 @@ Replace `192.168.0.5` with your client's IP address in `auto-usbip@.service`
 ```
 $ sudo vi /etc/systemd/system/auto-usbip@.service
 ```
-Copy script
+Copy script used by `auto-usbip@.service`
 ```
 $ sudo cp server/usr/local/bin/auto-usbip.sh /usr/local/bin
 $ sudo chmod +x /usr/local/bin/auto-usbip.sh
