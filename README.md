@@ -42,4 +42,4 @@ $ sudo cp server/etc/udev/rules.d/90-usb-device-connected.rules /etc/udev/rules.
 $ sudo udevadm control --reload
 ```
 
-Finally, make sure `ssh root@client` is accessible via passwordless public key authentication. You should now be able to plug in a usb device to the server and have it automatically attach to the client.
+Finally, make sure `ssh root@client` is accessible via passwordless key authentication. You should now be able to plug in a usb device to the server and have it automatically attach to the client.
