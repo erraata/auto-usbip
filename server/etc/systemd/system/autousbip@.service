@@ -1,8 +1,0 @@
-[Unit]
-Description=autousbip trigger
-
-[Service]
-ExecStart=/usr/local/bin/autousbip.sh %i 192.168.0.5
-
-[Install]
-WantedBy=multi-user.target
